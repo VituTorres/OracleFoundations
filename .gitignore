@@ -1,0 +1,37 @@
+# ==== IDE / Projeto local ====
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# ==== Build / Artefatos compilados ====
+out/
+target/   # se usar Maven
+build/    # se usar Gradle
+
+# ==== Dependências locais / caches ====
+.gradle/
+.mvn/
+
+# ==== Logs / arquivos temporários ====
+*.log
+*.tmp
+
+# ==== Sistema operacional ====
+# Mac
+.DS_Store  
+# Windows
+Thumbs.db
+
+# ==== Outros ====
+# Se tiver arquivos de pacote Java, JAR, WAR
+*.jar
+*.war
+*.ear
+
+# Qualquer configuração local sensível
+# por exemplo, arquivos de configuração local que não devem ir pro repositório
